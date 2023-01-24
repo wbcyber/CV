@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.myform.org</title>
+	<link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+<body>
+
+
+	<div class = "host">
+		<div class = "formbox" id = "box">
+			<div class = "buttonbox"> 
+				<button  type="button" class = "togglebutton" onclick="log()">Login</button>
+				<button type="button" class = "togglebutton" onclick="reg()">Register</button>
+				<div id = "tbtn" ></div>
+			</div>
+			<form  id = "log" class="data">
+				<label class="labelText" for="email"> Email Address</label>
+				<input id = "click" type="text" class="inputdata" name="email" placeholder = "Enter your email address.." required>
+				<label class="labelText" for="password">Password</label>
+				<input style="margin-bottom: 30px;" id = "clicks"  type="password" class="inputdata" name="password" placeholder= "Enter your password.." required>
+				<button type="submit" class = "sub-btn">log in</button>
+			</form>	
+			<form  id = "reg" class="data">
+				<label class="labelText" for="email"> Email Address</label>
+				<input type="text" class="inputdata" name="email" placeholder = "Enter your email address.." required>
+				<label class="labelText" for="password">Password</label>
+				<input type="password" class="inputdata" name="password" placeholder= "Enter your password.." required>
+				<input type="checkbox" name="" class = "check-box"><span>I agree to recieving marketing updates from CoinMarketCap</span>
+				<button id = "next" type="submit" class = "sub-btn">Register</button>
+			</form>		
+
+			
+
+			</div>	
+		</div>
+	</div>
+	 <!--this first function (fuction reg()) affects the reg page transition and positioning when it has moved to the left-->
+
+	<script>
+	var x = document.getElementById("log");
+	var y = document.getElementById("reg");
+	var z = document.getElementById("tbtn");
+	var n = document.getElementById("next");
+	
+
+		function reg(){
+			x.style.left = "-450px";
+			y.style.left = "50px";
+			z.style.left = "132px";
+		}	
+
+		function log(){
+			x.style.left = "50px";
+			y.style.left = "500px";
+			z.style.left = "20px";
+		}
+
+	
+	</script>
+	
+
+</body>
+</html>

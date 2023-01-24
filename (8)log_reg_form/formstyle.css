@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.host {
+	height: 100%;
+	width: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("dp.jpg");
+	background-position: center;
+	background-size: cover; 
+	position: absolute;
+}
+.formbox{
+	width: 480px;
+	height: 500px ;
+	position: relative; 
+	margin: 6% auto;
+	background:#fff;
+	padding: 5px;
+	overflow:hidden; ;
+	
+
+}
+.buttonbox{
+	width: 220px;
+	margin:35px auto;
+	border-radius:30px;
+	position: relative;
+}
+.togglebutton{
+	padding: 10px 30px;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	
+}
+
+#tbtn{
+	left: 20px;
+	width:50px;
+	height:10%;
+	border-radius: 30px;
+	transition: .5s;
+	background: aqua;
+	position: absolute;
+}
+
+.data{
+	top : 180px;
+	position: absolute;
+	width :380px;
+	transition: .5s;
+}
+
+.inputdata{
+	width:100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid black;
+	outline: none;
+	background: transparent;
+	border-radius: 5px;
+
+}
+
+
+.sub-btn{
+	width: 100%;
+	padding:10px 30px;
+	display:block;
+	margin:auto;
+	border:0;
+	outline: none;
+	border-radius: 10px;
+	background: aqua;
+	cursor: pointer;
+	box-shadow: 0 0 20px 9px lightcyan;
+	
+
+}
+.check-box{
+	margin:30px 10px 30px 0;
+}
+span{
+	color: brown;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+
+}
+
+.labelText{
+	font-weight: 800;
+	font-size: small;
+	color: black;
+
+
+
+}
+#log{
+	left :50px;
+}
+#reg{
+	left :500px;
+}
